@@ -72,3 +72,13 @@ And the 2 preset shorthands are:
    - help
  - cls
    - clear
+
+## Planned Features
+
+ - View subreddit(s)
+   - sidebar
+   - moderators
+   - submit
+ - View submission(s)
+   - and comment
+   - get author
