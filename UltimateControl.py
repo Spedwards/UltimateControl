@@ -1,11 +1,11 @@
 ###  CONFIGURATION ###
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 USERAGEN = '''App: Ultimate Control
 				Version: %s
 				Description: Control Panel for Reddit. Read messages, reply to comments, swap accounts, etc.
-				Known Issues: None
+				Known Issues: Possible faults on Mac/Linux
 				Author: /u/Spedwards'''%VERSION
 
 
@@ -39,7 +39,7 @@ commands = {
 	],
 	'reply': [
 		['reply [id] [m/c]','			Request message input then send'],
-		['reply [id] [m/c] [message]','		Send reply to comment/message']
+		['reply [id] [m/c] [message]','		Send reply to message/comment']
 	],
 	'user': [
 		['user [me/user] overview','			Get the user\'s comments'],
@@ -47,7 +47,7 @@ commands = {
 		['user [me/user] message','			Request subject and message input\n					then send'],
 		['user [me/user] message [subject]','	Request message input then send'],
 		['user [me/user] message [subject] [message]','	Send message'],
-		['user available [username]','		See if username is taken'],
+		['user available [username]','		See if username is available'],
 		['user create','				Request username and password\n					then create new account'],
 		['user create [username]','			Request password then create account'],
 		['user create [username] [password]','	Create new account']
@@ -58,8 +58,7 @@ commands = {
 	],
 	'shorthand': [
 		['shorthand set [word] [command]','		Sets a shorthand for a command'],
-		['shorthand rem [word]','			Removes a shorthand'],
-		['shorthand get','				Get shorthands as string']
+		['shorthand rem [word]','			Removes a shorthand']
 	],
 	'clear': [
 		['clear','					Clears the window']
