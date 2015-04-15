@@ -5,8 +5,7 @@ Known Issues: Possible faults on Mac/Linux
 Author: /u/Spedwards
 
 ## Requirements
-ctypes 1.1.0
-re 2.2.1
+ctypes 1.1.0  
 praw 3.0a1
 
 ## About
