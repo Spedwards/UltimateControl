@@ -5,6 +5,7 @@ Known Issues: Possible faults on Mac/Linux
 Author: /u/Spedwards
 
 ## Requirements
+Python 3.0+  
 ctypes 1.1.0  
 praw 3.0a1
 
