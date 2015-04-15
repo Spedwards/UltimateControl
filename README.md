@@ -4,6 +4,11 @@ Description: Control Panel for Reddit. Read messages, reply to comments, swap ac
 Known Issues: Possible faults on Mac/Linux  
 Author: /u/Spedwards
 
+## Requirements
+ctypes 1.1.0
+re 2.2.1
+praw 3.0a1
+
 ## About
 One day I got extremely bored and wanted to build a control panel for Reddit. You can do almost everything you would normally be able to do in the browser.
 
