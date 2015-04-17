@@ -81,9 +81,9 @@ And the 2 preset shorthands are:
 ## Planned Features
 
  - View subreddit(s)
-   - sidebar
-   - moderators
-   - submit
+   - [ ] sidebar
+   - [ ] moderators
+   - [ ] submit
  - View submission(s)
-   - and comment
-   - get author
+   - [ ] and comment
+   - [ ] get author
